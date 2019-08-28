@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+
+body {
+    background-color: cadetblue;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background-color: cadetblue;
+
+}
+
+/* .brdere {
+    border: 1px rgb(255, 0, 0) solid;
+} */
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    border: 1px solid black;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    clear: both;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#first {
+    background-color: #DDD;
+    padding: 5px;
+}
+
+#second {
+    background-color: #FFF;
+    padding: 5px;
+}
+
+nav {
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    background-color: azure;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid red; */
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+#main {
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    background-color: #222;
+    text-align: center;
+    padding-top: 35px;
+    color: #CCC;
+}
+
+@media screen and (min-width: 520px) {
+    #first {
+        width: 48%;
+        float: left;
+    }
+
+    #second {
+        width: 48%;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    header {
+        text-align: center;
+    }
+
+    body {
+        background-color: blanchedalmond;
+    }
+
+    nav {
+        float: left;
+        width: 20%;
+    }
+
+    nav li {
+        display: block;
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    #main {
+        float: right;
+        width: 80%
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(104, 75, 32);
+    }
+
+    .wrapper {
+        max-width: 1100px;
+    }
+}
